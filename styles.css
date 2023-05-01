@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Gayathri:wght@700&family=Poppins:wght@500&family=Rubik:wght@300;500&display=swap'); 
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background: url(files/home.jpg);
+    max-height: fit-content;
+    width: 100%;
+    padding: 3px;
+}
+
+.about{
+    display: flex;
+}
+
+header h1{
+    color: rgb(255, 242, 183);
+    font-size: 65px;
+    margin-left: 50px;
+}
+
+.info{
+    width: 600px;
+    font-size: 14px;
+    background: rgb(151,226,180);
+    background: linear-gradient(333deg, rgba(151,226,180,0.5018382352941176) 0%, rgba(211,237,221,0.5466561624649859) 29%, rgba(255,255,255,0.5046393557422969) 93%);
+    margin-right: 100px;
+    margin-left:50px;
+    margin-top: 10px;
+    padding: 40px;
+    border-radius: 30px;
+}
+
+.sign{
+    margin-top: 10px;
+    border: 3px solid rgb(107, 190, 163);
+    padding: 14px;
+}
+
+.title{
+    font-size: 30px;
+    text-decoration: underline;
+    color: rgb(107, 190, 163);
+    margin-bottom: 35px;
+}
+
+.submit, .reset{
+    border-radius: 40px;
+    margin-left: 90px;
+    margin-top: 50px;
+    color: white;
+    background-color: rgb(51, 100, 139);
+    font-size: 15px;
+    border: none;
+    padding: 10px;
+}
+
+.submit:hover, .reset:hover{
+    border-radius: 40px;
+    margin-left: 90px;
+    margin-top: 50px;
+    color: rgb(1, 2, 3);
+    background-color: rgb(119, 204, 152);
+    font-size: 15px;
+    border: none;
+}
